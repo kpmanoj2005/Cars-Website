@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Seller Page</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Car Listing</h1>
+    <form>
+      <div class="form-group">
+        <label for="carMake">Car Make:</label>
+        <input type="text" id="carMake" name="carMake" required>
+      </div>
+      <div class="form-group">
+        <label for="carModel">Car Model:</label>
+        <input type="text" id="carModel" name="carModel" required>
+      </div>
+      <div class="form-group">
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" required>
+      </div>
+      <div class="form-group">
+        <label for="mileage">Mileage:</label>
+        <input type="number" id="mileage" name="mileage" required>
+      </div>
+      <div class="form-group">
+        <label for="price">Price (USD):</label>
+        <input type="number" id="price" name="price" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+      </div>
+      <a href="index.html">Home</a>
+      <button type="submit">List Car</button>
+    </form>
+  </div>
+</body>
+</html>
